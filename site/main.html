@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<table id="tableCount" class="order-list">
+			<thead>
+				<tr>
+					<td>Name</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<form id="form1">
+					<td align="left"><input type="button" class="tdAdd" value="Add Row"/></td>
+					<td><input type="text" name="name"/></td>
+					<td><input type="button" class="tdDel" value="Delete"/></td>
+					</form>
+				</tr>
+			</tbody>
+		</table>
+		<input type="button" class="submit" onclick="submitForm('form1');" value="Submit"/>
+	</body>
+</html>
